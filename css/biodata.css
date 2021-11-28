@@ -1,0 +1,36 @@
+.navbar {
+    text-decoration: none;
+    text-align:right;
+}
+.navbar .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: white;   
+}
+a:link {
+    padding: 20px;
+    color: #8cdd8c;  
+}
+li {
+    display: inline;   
+}
+.one {
+    background-color: white;
+    color:black;
+    width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+h2 {
+    text-align: center;
+}
+span {
+    color:maroon;
+}
