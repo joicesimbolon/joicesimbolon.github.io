@@ -52,3 +52,42 @@ ul li{
 :hover {
     background-color:lightcoral;
 }
+.six {
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+}
+.submit [type=email]{
+    width: 20%;
+    padding: 12px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+}
+[type=submit]{
+    width: 10%;
+    padding: 12px;
+    margin: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(29, 2, 2);
+    color: white;
+}
+footer {
+    background-color:rgb(27, 19, 19);
+    color: white;
+    padding: 20px 40px 300px 40px;
+}
+.logo {
+    float: left;
+    margin-top: -5px;
+}
+.unai {
+    float: right;
+    padding-right: 5px;
+    padding-left: 300px;
+}
+.ci a {
+    float: right;
+    color: rgb(173, 169, 169);
+}
