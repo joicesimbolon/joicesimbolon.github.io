@@ -3,9 +3,11 @@
     text-align:right;
 }
 .navbar .menu ul{
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
 .navbar .menu a{
     text-decoration: none;
