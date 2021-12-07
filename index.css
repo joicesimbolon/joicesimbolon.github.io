@@ -15,11 +15,11 @@
     color:black;
 }
 .menu a:hover {
-    color: #5db35d;
+    color: #548d54;
 }
 .hero {
-    width: 1070px;
-    height: 300px;
+    width: 1500px;
+    height: 400px;
     background-image: url(background\ utama.jpg);
     background-size: cover;
     margin-top: -100px;
