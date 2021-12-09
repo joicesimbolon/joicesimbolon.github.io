@@ -16,10 +16,13 @@
 a:link {
     padding: 20px;
     color: #8cdd8c;  
-}
+} 
 li {
-    display: inline;   
-}
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border-color: rgb(220, 232, 245);
+}  
 .one {
     background-color: white;
     color:black;

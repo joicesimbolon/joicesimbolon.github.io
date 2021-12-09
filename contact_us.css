@@ -1,3 +1,9 @@
+li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border-color: rgb(220, 232, 245);
+}
 .navbar {
     color:black;
     text-align: right;
