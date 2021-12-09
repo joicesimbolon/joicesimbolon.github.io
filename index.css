@@ -1,5 +1,5 @@
 .hero {
-    width: 1365px;
+    width: 1300px;
     height: 400px;
     background-image: url(background\ utama.jpg);
     background-size: cover;
@@ -8,6 +8,7 @@
     text-align: left;
     font-family: 'Poppins', sans-serif;
 }
+
 .khusus a:hover {
     background-color: white;
 }
