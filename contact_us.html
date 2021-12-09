@@ -20,20 +20,26 @@
             <li class="nav-item"><a class="nav-link" href="free.html">FREE</a></li>
         </ul>
     </div>    
-    <div class="table">
-    <form action="simpan.php" method="get">
-        <h1>Contact us</h1>
+    <div class="container-sm-3">
+        <h1>contact us</h1>
+        <form action="/action_page.php">
             <label for="nama">Nama_Lengkap</label>
-            <input type="text" id="nama" name="nama" placeholder="Ketikkan nama lengkap anda"><br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Ketikkan email anda"><br>
+            <input type="text" class="form-control" name="nama" placeholder="Ketikkan nama lengkap anda"><br>
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Ketikkan email anda"><br>
+                </div>
+                <div class="col">
+                  <input type="password" class="form-control" name="pasword" placeholder="Ketikkan password anda"><br>
+                </div>
+            </div>
             <label for="nama">Username</label>
-            <input type="text" id="username" name="username" placeholder="Ketikkan username anda"><br>
-            <label for="password">Password</label> 
-            <input type="password" id="password" name="password" placeholder="Ketikkan password anda"><br>
+            <input type="text" class="form-control" name="username" placeholder="Ketikkan username anda"><br>
+            
             <label for="jenis_kelamin">Jenis Kelamin</label>
-            <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
-            <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan<br>
+            <input type="radio" name="jenis_kelamin" class="form-control" value="laki-laki">Laki-laki
+            <input type="radio" name="jenis_kelamin" class="form-control" value="perempuan">Perempuan<br>
             <label for="Agama">Agama</label>
             <select id="agama" name="Agama">
                 <option>Pilih agama</option>
@@ -43,26 +49,25 @@
                 <option value="hindu">Hindu</option>
                 <option value="konghucu">Konghucu</option>
             </select><br>
-            <label for="message">Alamat</label>
-            <textarea name="Alamat" rows="20" cols="50">Isi komentar anda disini
-            </textarea><br><br>
+            <div class="mb-3 mt-3">
+                <label for="comment">Alamat</label>
+                <textarea class="form-control" rows="20" cols="50" id="comment" name="text">Isi komentar anda disini</textarea>
+            </div><br><br>
             <label for="hobby">Hobby</label>
-            <input type="checkbox" id="Olahraga" name="Olahraga" value="Olahraga">
+            <input type="checkbox" class="form-control" name="Olahraga" value="Olahraga">
             <label form="Olahraga">Olahraga</label>
-            <input type="checkbox" id="Traveling" name="Traveling" value="Traveling">
+            <input type="checkbox" class="form-control" name="Traveling" value="Traveling">
             <label form="Traveling">Traveling</label>
-            <input type="checkbox" id="Dengar lagu" name="Dengar lagu" value="Dengar lagu">
+            <input type="checkbox" class="form-control" name="Dengar lagu" value="Dengar lagu">
             <label form="Dengar lagu">Dengar_lagu</label>
-            <input type="checkbox" id="Memancing" name="Memancing" value="Memancing">
+            <input type="checkbox" class="form-control" name="Memancing" value="Memancing">
             <label form="Memancing">Memancing</label>
-            <input type="checkbox" id="Main musik" name="Main musik" value="Main musik">                   
+            <input type="checkbox" class="form-control" name="Main musik" value="Main musik">                   
             <label form="Main musik">Main musik</label>
-            <br><br>
-            <input type="submit" value="Simpan">    
-            <input type="reset" value="Reset">
-        </td>
-    </tr>
-    </form>
+            <br><br>   
+            <button type="reset" value="btn btn-primary">Reset</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
     <div class="six">
         <h2>Be the first to know</h2>
