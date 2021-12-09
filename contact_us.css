@@ -4,30 +4,6 @@ li {
     margin: 5px;
     border-color: rgb(220, 232, 245);
 }
-.navbar {
-    color:black;
-    text-align: right;
-    text-overflow: clip;
-    text-decoration: none;
-}
-.menu ul li a{
-    list-style: none;
-    padding: 20px;
-    text-decoration: none;
-}
- *{
-    color: black;
-}
-.navbar .menu a{
-    text-decoration: none;
-    color:black;
-}
-li {
-    display: inline;
-    padding: 5px;
-    margin: 5px;
-    border-color: rgb(220, 232, 245);
-}
 .menu a:hover {
     color: white;
     border-radius: 5px;

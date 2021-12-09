@@ -14,22 +14,6 @@ li {
     text-align: left;
     font-family: 'Poppins', sans-serif;
 }
-
-.khusus a:hover {
-    background-color: white;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-.pertama .one {
-    text-decoration: solid;
-    text-align: center;
-}
-.next a{
-    margin: 20px;
-    background-blend-mode: darken;
-}
 .p {
     background-color: black;
     color: white;
@@ -50,27 +34,6 @@ p.more {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-}
-.kelas {
-    margin: 5px;
-    padding: 5px;
-    float: left;
-}
-.kelas a p {
-    margin: 10px;
-    padding: 10px;
-}
-
-.terakhir a{
-    display:inline;
-    margin: 8px;
-    padding: 10px;
-    width: 300px;
-}
-h1 {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
 }
 .submit [type=email]{
     width: 20%;
