@@ -1,53 +1,9 @@
-.navbar {
-  color:black;
-  text-align: right;
-  text-overflow: clip;
-  text-decoration: none;
-}
-.menu ul li a{
-  list-style: none;
-  padding: 20px;
-  text-decoration: none;
-}
-*{
-  color: black;
-}
-.navbar .menu a{
-  text-decoration: none;
-  color:black;
-}
 li {
   display: inline;
   padding: 5px;
   margin: 5px;
   border-color: rgb(220, 232, 245);
 }
-.menu a:hover {
-  color: white;
-  border-radius: 5px;
-  background-color: black;
-}
-div.picture {
-    margin: 10px;
-    border: 3px solid #afafaf;
-    width: 400px;
-    float: left;
-  }
-div.picture img {
-    width: 100%;
-    height: auto;
-  }
-div.picture:hover {
-    border: 3px solid #abcdef;
-    background-color: aliceblue;
-  }
-div.gallery {
-    padding: 15px;
-    text-align: center;
-  }
-  * {
-      box-sizing: border-box;
-  }
 h1 {
       text-align: center;
       padding: 10px;
@@ -56,8 +12,18 @@ h1 {
       background-color: beige;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-  }
-  .six {
+}
+.hero {
+    width: 1300px;
+    height: 400px;
+    background-image: url(background\ utama.jpg);
+    background-size: cover;
+    margin-top: -100px;
+    background-position: 0 -90px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.six {
     background-color: rgb(218, 218, 218);
     text-align: center;
 }
